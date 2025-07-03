@@ -1,0 +1,145 @@
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
+
+// .titleContainer {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     align-items: center;
+//     background-color: white;
+//     width: 79%;
+//     height: 100px;
+//     margin: auto;
+//     position: relative;
+// }
+
+// h3 {
+//     font-size: 30px;
+// }
+
+// .iconDiv {
+//     display: flex;
+//     flex-direction: row;
+//     width: 350px;
+//     height: 100px;
+//     align-items: center;
+//     position: absolute;
+//     right: 200px;
+//     gap: 20px;
+//     justify-content: space-between;
+//     font-size: 19px;
+// }
+
+// .container {
+//     display: flex;
+//     flex-direction: row;
+//     overflow: hidden;
+//     justify-content: space-between;
+//     width: 80%;
+//     height: 50%;
+//     margin: auto;
+//     position: relative;
+// }
+
+// .leftSide {
+//     display: flex;
+//     width: 50%;
+//     height: 50%;
+//     background-color: black;
+// }
+
+// .divForImg {
+//     display: flex;
+//     width: 100%;
+//     height: 100%;
+//     margin: 20px 0px;
+// }
+
+// .divForImg img {
+//     width: 100%;
+//     height: 100%;
+// }
+
+// .rightSide {
+//     background-color: white;
+//     position: absolute;
+//     right: 200px;
+//     width: 30%;
+//     height: 60%;
+//     border: 1px rgb(199, 198, 198) solid;
+//     border-radius: 10px;
+// }
+
+// .divForValue {
+//     position: absolute;
+//     top: 5px;
+//     height: 30%;
+//     width: 100%;
+//     border-bottom: 1px rgb(199, 198, 198) solid;
+//     ;
+// }
+
+// .divForValue h1 {
+//     left: 30px;
+//     position: absolute;
+// }
+
+
+
+// .divAboutUser {
+//     display: flex;
+//     flex-direction: row;
+//     position: absolute;
+//     top: 25px;
+//     width: 100%;
+//     height: 70%;
+//     align-items: center;
+//     justify-content: space-around;
+// }
+
+
+// .userName {
+//     position: absolute;
+//     right: 300px;
+//     font-size: 18px;
+// }
+
+// .userIcon {
+//     position: absolute;
+//     right: 20px;
+//     color: gray;
+//     font-size: 40px;
+// }
+
+
+// .divForButtons {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     position: absolute;
+//     top: 160px;
+//     width: 100%;
+//     height: 50%;
+//     gap: 5px;
+// }
+
+// .button1,
+// .button2 {
+//     width: 70%;
+//     height: 40%;
+//     color: white;
+//     border-radius: 15px;
+//     font-size: 15px;
+//     border: none;
+// }
+
+// .button1 {
+// background-color: green;
+// }
+
+// .button2 {
+//  background-color: blue;  
+// }
