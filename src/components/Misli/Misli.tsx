@@ -14,10 +14,6 @@ const Misli = () => {
             <div className="clock">
                 <p>20.00</p>
             </div>
-
-            bura yaz men copy edecem 
-            parolu yaz ora
-
             <div className="club">
                 <div className="clubName">
                     <p>Belçika(Q)</p>
@@ -50,7 +46,7 @@ const Misli = () => {
 
             <div className="secondScores">
                 <div>
-                    <p>2.23</p>
+                    <p>5.13</p>
                 </div>
 
                 <div>
@@ -62,11 +58,8 @@ const Misli = () => {
                 </div>
             </div>
 
-            <div className="thirdScores">
-                <div>
-                    <p>1.95</p>
-                </div>
 
+            <div className="firstScores">
                 <div>
                     <p>5.13</p>
                 </div>
@@ -74,12 +67,20 @@ const Misli = () => {
                 <div>
                     <p>5.13</p>
                 </div>
-                <div className="divForStatistica">
-                    <p>+338<IoIosArrowDropdown />
-                    </p>
+
+                <div>
+                    <p>5.13</p>
                 </div>
+            </div>
+            <div className="divForStatistica">
+                <p>+338<IoIosArrowDropdown />
+                </p>
             </div>
         </div>
+
+
+
+
     )
 }
 

@@ -6,40 +6,46 @@
 
 .misli {
     display: flex;
-    background-color: red;
+    background-color: rgb(233, 229, 229);
     justify-content: space-between;
     align-items: center;
     position: absolute;
     top: 40%;
-    left: 15%;
     height: 60px;
-    width: 70%;
+    width: 100%;
 }
 
 
 .clock {
     height: 100%;
     width: 70px;
-    background-color: aqua;
     display: flex;
+    background-color: white;
     justify-content: center;
     align-items: center;
     border-right: 1px gray solid;
 }
 
- .club {
+.club {
     display: flex;
-    background-color: green;
+    height: 60px;
+    width: 20%;
+    justify-content: space-between;
+    background-color: red;
 }
 
 .clubName {
-    height: 100%;
+    height: 60px;
+    width: 30%;
     display: flex;
     flex-direction: column;
-    background-color: pink;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    p{
-        &:last-child{
+    p {
+        &:last-child {
             margin-top: 5px;
         }
     }
@@ -48,23 +54,65 @@
 .clubIcons {
     display: flex;
     flex-direction: row;
-    background-color: blue;
+    color: orangered;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+    position: absolute;
+    right: 40px;
+    top: 20px;
 }
 
 .firstScores {
     display: flex;
     flex-direction: row;
-    background-color: yellow;
+    background-color: rgb(233, 229, 229);
+    width: 15%;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+}
+
+.firstScores div {
+    background-color: white;
+    height: 40px;
+    width: 20%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.divForStatistica {
+    background-color: white;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 60px;
+    flex-direction: row;
 }
 
 .secondScores {
     display: flex;
     flex-direction: row;
-    background-color: purple;
+    background-color: white;
+    width: 15%;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
 }
 
-.thirdScores {
-    display: flex;
-    flex-direction: row;
+.secondScores div {
     background-color: white;
+    height: 40px;
+    width: 20%;
+    border: 1px gray solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
