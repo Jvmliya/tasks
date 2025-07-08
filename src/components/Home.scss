@@ -1,44 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.col {
-    width: 23%;
-    height: 300px;
-    background-color: red;
-    margin: 10px 0;
-}
-
-.image {
+    background-color: gray;
     width: 100%;
-    height: 50%;
+    height: 100vh;
 }
 
-.image>img {
+.main {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    // statik verdim olcunu,cunki icnde boyuyen hecne yoxdu commente al
+}
+
+.leftContainer {
+    // bunu yziriqki bu clasin icindekiler ortaya getsin commente al
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    background-color: red;
+}
+
+.leftImage {
+    width: 50%;
+    height: 30%;
+}
+
+.leftImage img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    border-radius: 50%;
 }
 
-@media (max-width:791px) {
-    .col {
-        width: 32%;
-    }
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    // width: 50%;
+    // height: 100%;
 }
 
-@media (max-width:503px) {
-    .col {
-        width: 48%;
-    }
+.forUser {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    margin-top: 30px;
+}
+
+.contact {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.contact>div {
+    width: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
 }
 
 
-@media (max-width:359px) {
-    .col {
-        width: 95%;
-        margin: 10px auto;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @media (max-width:791px) {
+//     .col {
+//         width: 32%;
+//     }
+// }
+
+// @media (max-width:503px) {
+//     .col {
+//         width: 48%;
+//     }
+// }
+
+
+// @media (max-width:359px) {
+//     .col {
+//         width: 95%;
+//         margin: 10px auto;
+//     }
+// }
